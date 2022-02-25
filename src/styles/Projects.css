@@ -1,0 +1,14 @@
+.Projects{
+  margin-top: 50px;
+  padding: 2rem;
+  gap: 2rem;
+  display: flex;
+  }
+
+
+.Project-card{
+  width: 500px;
+  padding: 1rem;
+  background-color: rgba(240, 240, 240, 0.322);
+  border-radius: 15px;
+}

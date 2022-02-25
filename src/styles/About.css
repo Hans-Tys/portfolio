@@ -1,0 +1,27 @@
+.About{
+  height: fit-content;
+  margin: 0;
+  display: flex;
+  padding: 5rem;
+  flex-direction: row;
+}
+
+.About-title{
+  font-size: 50px;
+  margin: 0;
+  padding: 2rem;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.About-text{
+  width: 50vw;
+  font-weight: 500;
+  padding-left: 2rem;
+  text-align: left;
+  line-height: 30px;
+}
+
+.image{
+  border-radius: 20px;
+}
