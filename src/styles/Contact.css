@@ -1,0 +1,22 @@
+.contact-form{
+  background-color: rgba(245, 245, 255, 0.596);
+  border-radius: 50px;
+  height: 460px;
+  width: 900px;
+  margin: auto;
+  padding: 3rem;
+}
+
+
+.form-email{
+  text-align: left;
+  width: 50%;
+  color: black;
+  font-size: 15px;
+}
+
+.form-text{
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
