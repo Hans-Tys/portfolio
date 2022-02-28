@@ -1,10 +1,10 @@
 .about-container{
-  height: 150vh;
+  height: 120vh;
 }
 
 .about-text-container{
   background-color: #FCEBEB;
-  height: 60%;
+  height: 75%;
   position:relative;
   top: -100px;
 }

@@ -18,6 +18,7 @@ function About() {
             In my free time, I enjoy drawing and surfing.
             I love the creative part of both of these hobbies they allow me to show my ideas and feelings in different ways.
           </p>
+
         </div>
       </div>
     </div>
