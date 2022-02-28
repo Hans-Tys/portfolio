@@ -2,12 +2,18 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-      <ul className='nav'>
-        <li className='nav-items'><a href="">Home</a></li>
-        <li className='nav-items'><a href="#projects">Projects</a></li>
-        <li className='nav-items'><a href="Home">Contact</a></li>
-      </ul>
+    <div className='nav-container'>
+      <div className='left-side'>
+        <h1>Hans Tys</h1>
+        <div className='devider'></div>
+        <ul className='nav'>
+          <li className='nav-items'><a href="#projects">Projects</a></li>
+          <li className='nav-items'><a href="Home">Designs</a></li>
+        </ul>
+      </div>
+      <div>
+      <a className='contact' href="#Contact">Contact me</a>
+      </div>
     </div>
   )
 }

@@ -1,9 +1,14 @@
 .Projects{
   margin-top: 50px;
-  padding: 2rem;
   gap: 2rem;
   display: flex;
   }
+
+  .col {
+    padding: 3px;
+
+  }
+
 
 
 .Project-card{

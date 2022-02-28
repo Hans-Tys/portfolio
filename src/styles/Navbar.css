@@ -1,35 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
 
-.nav {
-  list-style: none;
-  position: fixed;
-  top: 0;
+.nav-container{
+  padding-top: 1rem;
   display: flex;
   flex-direction: row;
+}
+
+.left-side{
+  display: flex;
   height: 50px;
   justify-content: right;
   align-items: center;
-  width: 100vw;
-  background-color: rgba(255, 255, 255, 0.562);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact{
+  z-index: 4;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  padding: 8px 25px;
+  height: 40px;
+  background-color: rgb(216, 153, 153);
+  border-radius: 50px;
+}
+.contact, a{
+  color: rgb(8, 8, 8);
+  font-weight: 300;
+}
+
+
+
+h1{
+  font-size: 48px;
+  width: 300px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.devider{
+  border-right: 1px solid rgb(255, 255, 255);
+  height:30px;
+}
+
+.nav {
+  list-style: none;
+
   margin: 0;
   padding: 0;
 }
 
 .nav-items{
   margin: 0 2rem;
+  padding-left: 25px;
 }
 a{
   text-decoration: none;
-  padding: 5px;
-  color: rgb(73, 73, 73);
-  font-weight: 500;
-  text-shadow: 2px 2px #00000013;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
 }
 
 a:hover{
   color: rgb(74, 112, 131);
-  padding: 5px;
-  text-decoration: underline;
-  border-radius: 5px;
 }

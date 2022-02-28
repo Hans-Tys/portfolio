@@ -7,19 +7,19 @@ function Projects() {
   return (
     <div className='Projects' id="projects">
 
-      <Container>
+      <Container fluid="md">
         <Row>
           <Col>
-            <img src={Img} className="rounded shadow" width="180px" heigth="500px" />
+            <img src={Img} className="rounded shadow" width="100%" />
           </Col>
           <Col>
-            <img src={Img} className="rounded shadow" width="180px" heigth="500px" />
+            <img src={Img} className="rounded shadow" width="100%"  />
           </Col>
           <Col>
-            <img src={Img} className="rounded shadow" width="180px" heigth="500px" />
+            <img src={Img} className="rounded shadow" width="100%"  />
           </Col>
           <Col>
-            <img src={Img} className="rounded shadow" width="180px" heigth="500px" />
+            <img src={Img} className="rounded shadow" width="100%"  />
           </Col>
         </Row>
       </Container>
