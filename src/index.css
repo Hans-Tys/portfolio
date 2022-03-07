@@ -4,6 +4,7 @@
 @import './styles/About.css';
 @import './styles/Projects.css';
 @import './styles/Contact.css';
+@import './styles/Pokedex.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
 
 
@@ -14,7 +15,6 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 300vh;
   background-color: #cecece;
   font-family: 'Poppins', sans-serif;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from '../clothes.png'
+import pokedexImg from '../pokedex.png'
 
 
 function Projects() {
@@ -18,12 +19,13 @@ function Projects() {
         </div>
       </div>
       <div className="Project-card">
-        <img src={Img} className='image-card' />
+        <img src={pokedexImg} className='image-card' />
         <div className="project-text">
-          <h3>NOVI</h3>
+          <h3>Pokedex</h3>
           <p>We are a group of students from Le wagon Brussels coding school #batch748. We have partnered together
             based on the shared interest of clothing and conscious shopping, to bring a product that provides a
             synopsis on major brands out on the market.</p>
+            <a href="pokedex" target="blank">Try Out</a>
         </div>
       </div>
       <div className="Project-card">

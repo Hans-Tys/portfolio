@@ -1,17 +1,18 @@
 import './index.css'
-import Navbar from './Components/Navbar'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Projects from './Components/Projects'
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./Components/Home";
+import Pokedex from './Components/Pokedex';
+
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <About />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="pokedex" element={<Pokedex />} />
+      </Routes>
+
     </div>
   );
 }

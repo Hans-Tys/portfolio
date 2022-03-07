@@ -3,7 +3,17 @@
 .App {
   text-align: center;
   background-color: #172336;
-  height: 400vh;
+  height: fit-content;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .App-logo {
