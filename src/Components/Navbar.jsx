@@ -12,7 +12,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div>
-      <a className='contact' href="#Contact">Contact me</a>
+      <a className='contact' href="#contact">Contact me</a>
       </div>
     </div>
   )
