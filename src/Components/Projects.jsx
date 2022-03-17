@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from '../clothes.png'
 import pokedexImg from '../pokedex.png'
+import watclistImg from '../images/watchlist.jpg'
 
 
 function Projects() {
@@ -27,7 +28,14 @@ function Projects() {
             <a className='btn-link' href="pokedex" target="blank">Try Out</a>
         </div>
       </div>
-
+      <div className="Project-card">
+        <img src={watclistImg} className='image-card' />
+        <div className="project-text">
+          <h3>My Watchlist</h3>
+          <p>This watch list is made in Rails and witht the use of a movielist API, i made this during my bootcamp at Le Wagon.</p>
+          <a className='btn-link' href="https://hans-tys-watch-list.herokuapp.com/" target="blank">Try Out</a>
+        </div>
+      </div>
     </div>
   )
 }
