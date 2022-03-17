@@ -23,9 +23,7 @@ function Projects() {
         <img src={pokedexImg} className='image-card' />
         <div className="project-text">
           <h3>Pokedex</h3>
-          <p>We are a group of students from Le wagon Brussels coding school #batch748. We have partnered together
-            based on the shared interest of clothing and conscious shopping, to bring a product that provides a
-            synopsis on major brands out on the market.</p>
+          <p>I made this little pokedex to show and practice my ability to use Api's</p>
             <a className='btn-link' href="pokedex" target="blank">Try Out</a>
         </div>
       </div>
