@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className='devider'></div>
         <ul className='nav'>
           <li className='nav-items'><a href="#projects">Projects</a></li>
-          <li className='nav-items'><a href="#designs">Designs</a></li>
+          <li className='nav-items'><a href="Designs" target="blank">Designs</a></li>
         </ul>
       </div>
       <div>

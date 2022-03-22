@@ -1,13 +1,14 @@
 .pokedex-page{
   height: 100vh;
-  padding-top: 20vh;
+  padding-top: 5vh;
   background-image: url('https://i.imgur.com/2gfwG.png');
-  background-size: cover;
+  background-size: contain;
+
 }
 
 .pokedex{
   margin: auto;
-  height: 800px;
+  height: fit-content;
   padding: 50px;
   border-radius: 25px;
   width: fit-content;

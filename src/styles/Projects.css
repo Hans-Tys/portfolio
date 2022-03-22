@@ -35,9 +35,7 @@
   padding: 1rem;
   display: flex;
 }
-.Project-card:hover{
-  height: 350px;
-}
+
 
 .project-text{
   color: white;

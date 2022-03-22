@@ -36,6 +36,8 @@ function Projects() {
           <a className='btn-link' href="https://hans-tys-watch-list.herokuapp.com/" target="blank">Try Out</a>
         </div>
       </div>
+
+
     </div>
   )
 }

@@ -1,3 +1,8 @@
+.contact-container{
+  background-color: #172336;
+  padding-bottom: 5rem;
+}
+
 .contact-form{
   background-color: rgba(245, 245, 255, 0.596);
   border-radius: 50px;

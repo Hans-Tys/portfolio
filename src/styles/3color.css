@@ -1,0 +1,76 @@
+.color3{
+
+  background-color: #E4D1E9;
+  height: 75vh;
+  width: 80vw;
+  position: absolute;
+  top: 15vh;
+  left: 10vw;
+  border-radius: 40px;
+}
+
+.shape{
+  background-color: #A6FFEF;
+  height: 100%;
+  width: 450px;
+  transform: skew(-20deg);
+  position: relative;
+  left: 300px;
+}
+
+.circle{
+  height: 550px;
+  width: 550px;
+  position: absolute;
+  top: 90px;
+  left: 55%;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.inner-circle{
+  height: 450px;
+  width: 450px;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  border-radius: 50%;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.text{
+  z-index: 3;
+  position: absolute;
+  left: 10%;
+  text-align: left;
+  padding: 5rem;
+  color: black;
+  width: 600px;
+}
+
+.text h2{
+  padding-bottom: 2rem;
+  color: black;
+  font-size: 48px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.295);
+}
+
+.nav-button{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.nav-innercircle{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #E4D1E9;
+  position: relative;
+  margin: auto;
+  top: 5px;
+}

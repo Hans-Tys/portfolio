@@ -1,0 +1,56 @@
+.Designs{
+  background-color: #172336;
+  height: 100vh;
+}
+
+.Designs h2{
+  color: rgb(233, 221, 220);
+  padding-top: 50px;
+}
+
+.designs-container{
+  display: flex;
+  margin: auto;
+  padding: 5rem;
+  width: 85%;
+  height: fit-content;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.design-small{
+  background-color: rgb(238, 231, 229);
+  height: 275px;
+  width: 450px;
+  border-radius: 40px;
+}
+
+.back-btn{
+  margin-top: 340px;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border: 0;
+}
+
+.colorchange-list{
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  top: -40px;
+  gap: 20px;
+}
+
+.circle-btn{
+  background-color: rgb(252, 247, 202);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(196, 196, 196);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.circle-btn:hover{
+  border: 2px solid rgb(0, 0, 0);
+}
