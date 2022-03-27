@@ -19,8 +19,8 @@
 }
 
 .circle{
-  height: 550px;
-  width: 550px;
+  height: 50vh;
+  width: 50vh;
   position: absolute;
   top: 90px;
   left: 55%;
@@ -29,11 +29,11 @@
 }
 
 .inner-circle{
-  height: 450px;
-  width: 450px;
+  height: 80%;
+  width: 80%;
   position: relative;
   margin: auto;
-  top: 50px;
+  top: 10%;
   border-radius: 50%;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -43,9 +43,9 @@
   position: absolute;
   left: 10%;
   text-align: left;
-  padding: 5rem;
+  padding: 4vw 4vw 4vw 0;
   color: black;
-  width: 600px;
+  width: 35vw;
 }
 
 .text h2{
